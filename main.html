@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation Practices</title>
+    <link rel="stylesheet" href="./main.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <div>
+        <div class="loader-container">
+          <svg viewBox="0 0 1100 160">
+            <text
+              x="50%"
+              y="50%"
+              dy=".32em"
+              text-anchor="middle"
+              class="text-body"
+            >
+              Animation Practices
+            </text>
+            <text
+              x="85%"
+              y="50%"
+              dy=".32em"
+              dx="1.5em"
+              text-anchor="middle"
+              class="dot"
+            >
+              .
+            </text>
+          </svg>
+        </div>
+        <div class="buttons">
+          <div class="star-btn-container">
+            <div class="star-btn">
+              <a href="#" class="star-btn">
+                <div class="star-btn__content">
+                  <span class="star-btn__text">Hover me!</span>
+                  <div class="star-btn__reflection-1"></div>
+                  <div class="star-btn__reflection-2"></div>
+                </div>
+                <img src="./assets/stars.svg" alt="" class="star-btn__stars" />
+                      <img
+                        src="./assets/star-fall.svg"
+                        alt=""
+                        class="star-btn__starfall"
+                      />
+                      <img
+                        src="./assets/star-line.svg"
+                        alt=""
+                        class="star-btn__starline"
+                      />
+                      <img
+                        src="./assets/star-rings.svg"
+                        alt=""
+                        class="star-btn__starrings"
+                      />
+
+                      <div class="star-btn__shadow"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="gsap-btn-container">
+                  <button class="gsap-btn">
+                  <span class="gsap-btn-text">Hover me!</span>
+                  <div class="gsap-btn-marker"></div>
+                  </button>
+                </div>
+                   <div class="follow-btn-container">
+                    <button class="follow-btn">
+        <span class="follow-btn-text">Hover me!</span>
+      </button>
+    </div> 
+
+      <div class="loading-btn-container">
+  <button class="loading-btn">
+    <span class="loading-btn-text">Log In</span>
+    <div class="loading-btn-dots">
+        <div></div>       
+        <div></div>
+        <div></div>
+    </div>
+  </button></div>
+</div>
+<div id="lenis-cards-parent">
+    <div class="lenis-cards-container">
+      <div class="lenis-card">
+        <div class="lenis-card-wrapper">
+          <p class="lenis-card-number">01</p>
+          <p class="lenis-card-text">This is the first card.</p>
+        </div>
+      </div>
+      <div class="lenis-card">
+        <div class="lenis-card-wrapper">
+          <p class="lenis-card-number">02</p>
+          <p class="lenis-card-text">This is the second card.</p>
+        </div>
+      </div>
+      <div class="lenis-card">
+        <div class="lenis-card-wrapper">
+          <p class="lenis-card-number">03</p>
+          <p class="lenis-card-text">This is the third card.</p>
+        </div>
+      </div>
+      <div class="lenis-card">
+        <div class="lenis-card-wrapper">
+          <p class="lenis-card-number">04</p>
+          <p class="lenis-card-text">This is the fourth card.</p>
+        </div>
+      </div>
+    </div>
+</div>
+    <div>
+      <div class="monet-items-container">
+        <div class="monet-item">
+          <div class="monet-item-text">
+            <h4>Agapanthus</h4>
+            <p>by Claude Monet, 1914–1926</p>
+          </div>
+          <div class="monet-item-img">
+            <img src="./assets/images/agapanthus.jpeg" />
+          </div>
+        </div>
+        <div class="monet-item">
+          <div class="monet-item-text">
+            <h4>Weeping Willow</h4>
+            <p>by Claude Monet, 1918</p>
+          </div>
+          <div class="monet-item-img">
+            <img src="./assets/images/weeping-willow.jpeg" />
+          </div>
+        </div>
+        <div class="monet-item">
+          <div class="monet-item-text">
+            <h4>The House among the Roses</h4>
+            <p>by Claude Monet, 1925–1925</p>
+          </div>
+          <div class="monet-item-img">
+            <img src="./assets/images/roses.jpeg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+        </div>
+      </div>
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script>
+
+
+  </body>
+</html>
